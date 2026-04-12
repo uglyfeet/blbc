@@ -113,12 +113,56 @@
         <!-- my-4 used to add top and bottom margin to heading -->
         <div class="col-12 text-center my-4">
             <h2 class="display-5">Contact</h2>
-            <p class="mt-4">We would love to hear from you!</p>
-        </div
+        </div>
         <div class="col-12 col-md-10 col-lg-8">
-        
-            <!--add contact form here-->
-            <form class="row g-3 sharp-corners">
+    
+          <!-- Button trigger socialmediamodal -->
+          <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#socialmediaModal">
+                Social Media
+          </button>
+          <!-- Button trigger contactmodal -->
+          <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#contactModal">
+                Message Us
+          </button>
+       <!-- Button trigger phonemodal -->
+          <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#phoneModal">
+                Phone Us
+          </button>
+          <!-- Button trigger visitmodal -->
+          <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#visitModal">
+                Visit Us
+          </button>
+
+        </div>
+    </div>
+</footer>
+
+<!-- Social media Modal -->
+<div class="modal fade" id="socialmediaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Social Media Links</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">         
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Message Us</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="row g-3 sharp-corners">
                 <div class="col-md-6 col-lg">
                     <label for="fullName" class="form-label">Full Name</label>
                     <input type="text" class="form-control" id="fullName">
@@ -134,48 +178,46 @@
                 <div class="col-12">
                     <label for="message" class="form-label">Message</label>
                     <textarea class="form-control" id="message" rows="3"></textarea>
-                </div>
-     
+                </div>  
                 <div class="col-12">
                     <button type="submit" class="btn btn-primary custom-button">Send</button>
                 </div>
-            </form>
-        </div>
-    </div>
-</footer>
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content sharp-corners">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Send us a message!</p>
-                <form class="row g-3">
-                    <div class="col-lg-6">
-                        <label for="signUpName" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="signUpName">
-                    </div>
-                    <div class="col-lg-6">
-                        <label for="signUpEmail" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="signUpEmail">
-                    </div>
-                    <div class="col-12 mb-4">
-                        <button type="submit" class="btn btn-primary custom-button">
-                        Sign up!
-                        </button>
-                    </div>
-                </form>
+              </form>            
             </div>
         </div>
     </div>
   </div>
 </div>
 
+<!-- Phone Modal -->
+<div class="modal fade" id="phoneModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Phone Numbers</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">         
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Visit us Modal -->
+<div class="modal fade" id="visitModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Visit Us</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">         
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
 
     <!-- Bootstrap JS Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
