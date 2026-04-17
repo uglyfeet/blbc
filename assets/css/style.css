@@ -1,17 +1,35 @@
 /*  
-    #a4c2d1; egg blue
-    #dbdcde; light grey
-    #1f7798; mid-blue
-    #184f63; dark-blue
+--dry-sage: #c9cba3ff;
+--soft-peach: #ffe1a8ff;
+--vibrant-coral: #e26d5cff;
+--wine-plum: #723d46ff;
+--deep-mocha: #472d30ff;
 */
 
 /* global styles */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #723d46ff; /* wine plum */
+    --secondary-color: #c9cba3ff; /* dry sage */
+    --highlight-color: #e26d5cff; /* vibrant coral */
+    --highlight-color-light: #ffe1a8ff; /* soft peach */
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #a4c2d1; /* egg blue */
+    background-color: var(--secondary-color);
+}
+
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
 }
 
 h1, h2 {
