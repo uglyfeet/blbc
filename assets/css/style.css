@@ -53,6 +53,11 @@ h2 {
     color: var(--highlight-color);
 }
 
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+}
+
 .section {
     padding-top: 4rem; /* prevent navbar overlap */
 }
