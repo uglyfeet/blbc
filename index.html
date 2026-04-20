@@ -199,7 +199,8 @@ Office hours are 9.30 to12.00, Monday to Friday</p>
                                 <th scope="col">Event</th>
                                 <th scope="col">Day</th>
                                 <th scope="col">Time</th>
-                                <th scope="col">Price</th>
+
+                                <th scope="col">more</th>
                             </tr>
 
                         </thead>
@@ -208,43 +209,65 @@ Office hours are 9.30 to12.00, Monday to Friday</p>
                                 <th scope="row">Over 50s table tennis in John Yeomans Hall</th>
                                 <td>Mondays</td>
                                 <td>3pm</td>
-                                <td>no charge</td>
+                                <td>  <!-- Button trigger tabletennisModal -->
+                                    <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#tabletennisModal">
+                                    <i class="fa-solid fa-info"></i>
+                                </button>    
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row"> Footsteps Tots (0-4yrs) and carers group</th>
                                 <td>Monday fortnightly</td>
                                 <td>9.30am - 11.30am</td>
-                                <td>£2 per family</td>
+                                <td> <!-- Button trigger footstepsmodal -->
+                                    <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#footstepsModal">
+                                    <i class="fa-solid fa-info"></i>
+                                </button> 
                             </tr>
                             <tr>
                                 <th scope="row">Ladies Night</th>
                                 <td>Monday fortnightly</td>
                                 <td>7pm</td>
-                                <td> </td>
+                                <td>  <!-- Button trigger ladiesnightModal -->
+                                    <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#ladiesnightModal">
+                                    <i class="fa-solid fa-info"></i>
+                                </button> 
                             </tr>
                              <tr>
                                 <th scope="row">Mother & Toddlers group</th>
                                 <td>Thurdays term time</td>
                                 <td>9.15am - 12.30pm</td>
-                                <td>£2 per family</td>
+                                <td>  <!-- Button trigger mothertoddlerModal -->
+                                    <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#mothertoddlerModal">
+                                    <i class="fa-solid fa-info"></i>
+                                </button> 
                             </tr>
                              <tr>
                                 <th scope="row">designated warm space</th>
                                 <td>Fridays</td>
                                 <td>11am - 1pm</td>
-                                <td> </td>
+                                <td>  <!-- Button trigger warmspaceModal -->
+                                    <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#warmspaceModal">
+                                    <i class="fa-solid fa-info"></i>
+                                </button> 
                             </tr>
                              <tr>
                                 <th scope="row">Community Youth Club 11-18yrs</th>
                                 <td>Fridays</td>
                                 <td>6pm - 8pm</td>
-                                <td>subscription</td>
+                                <td>  <!-- Button trigger communityyouthclubModal -->
+                                    <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#communityyouthclubModal">
+                                    <i class="fa-solid fa-info"></i>
+                                </button> 
                             </tr>
                             <tr>
                                 <th scope="row">not so young ones</th>
                                 <td>3rd Saturday</td>
                                 <td>6pm - 8pm</td>
-                                <td></td>
+                                <td>  <!-- Button trigger notsoyoungonesModal -->
+                                    <button type="button" class="btn btn-primary custom-button sharp-corners" data-bs-toggle="modal" data-bs-target="#notsoyoungonesModal">
+                                    <i class="fa-solid fa-info"></i>    
+                                </button> 
                             </tr>
     
                         </tbody>
@@ -282,6 +305,114 @@ Office hours are 9.30 to12.00, Monday to Friday</p>
     </div>
 </footer>
 
+<!-- **** models for the regular activities section **** -->
+<!-- Table Tennis Modal -->
+<div class="modal fade" id="tabletennisModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">over 50s table tennis</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">   
+                  <span> this is a test the info</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footsteps Modal -->
+<div class="modal fade" id="footstepsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">footsteps</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">   
+                  <span> this is a test the info</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Ladiesnight Modal -->
+<div class="modal fade" id="ladiesnightModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">ladies night</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">   
+                  <span> this is a test the info</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- mothertoddler Modal -->
+<div class="modal fade" id="mothertoddlerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">mother and toddler</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">   
+                  <span> this is a test the info</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- warmspace Modal -->
+<div class="modal fade" id="warmspaceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">warm space</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">   
+                  <span> this is a test the info</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- communityyouthclub Modal -->
+<div class="modal fade" id="communityyouthclubModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">community youth club</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">   
+                  <span> this is a test the info</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- notsoyoungones Modal -->
+<div class="modal fade" id="notsoyoungonesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content sharp-corners">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">not so young</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">   
+                  <span> this is a test the info</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- **** Modals for contacts section in the footer **** -->
 <!-- Social media Modal -->
 <div class="modal fade" id="socialmediaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -333,7 +464,6 @@ Office hours are 9.30 to12.00, Monday to Friday</p>
             </div>
         </div>
     </div>
-  </div>
 </div>
 
 
@@ -371,7 +501,6 @@ Office hours are 9.30 to12.00, Monday to Friday</p>
             </div>
         </div>
     </div>
-  </div>
 </div>
 
 <!-- Phone Modal -->
@@ -399,7 +528,6 @@ Office hours are 9.30 to12.00, Monday to Friday</p>
             </div>
         </div>
     </div>
-  </div>
 </div>
 
 <!-- Visit us Modal -->
@@ -414,7 +542,6 @@ Office hours are 9.30 to12.00, Monday to Friday</p>
             </div>
         </div>
     </div>
-  </div>
 </div>
 
     <!-- Bootstrap JS Script-->
